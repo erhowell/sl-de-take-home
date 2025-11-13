@@ -28,7 +28,4 @@ with open("transform/transform_collisions.sql") as f:
 with engine.begin() as conn:
     conn.execute(text(sql))
 
-# Step 4: Export results
-df_summary = pd.read_sql(text("SELECT * FROM collision_summary"), engine)
-df_summary.to_csv("collision_summary.csv", index=False)
-print("Pipeline complete ✅ — results saved to collision_summary.csv")
+print("=== ELT Process Completed ===")
