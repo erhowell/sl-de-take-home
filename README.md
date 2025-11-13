@@ -71,10 +71,10 @@ cd /where/you/like/source/code
 # The starter code is utilizing Python 3.11 to match the environment we are currently on
 python -V
 
-python -m venv <directory-name>
-cd <directory-name>
+python -m venv <env-name>
+cd <env-name>
 git clone <github-url>
-cd <directory-name>
+cd <env-name>
 
 Activate your virtualenv so that pip packages are installed
 # locally for this project instead of globally.
@@ -83,7 +83,7 @@ source ../bin/activate
 pip3 install -r requirements.txt
 
 # Installed kernelspec sl-data-eng-take-home
-python -m ipykernel install --user --name=sl-data-eng-take-home --display-name "Python (NYC Collisions)"
+python -m ipykernel install --user --name=<env-name> --display-name "Python (NYC Collisions)"
 
 
 ```
