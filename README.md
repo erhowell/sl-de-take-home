@@ -14,15 +14,29 @@
 For this exercise you will be expected to:
 
 1. Extracts recent collision data from NYC Open Data API
+    - [Collision Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
+    - [Collision Vehicles](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Vehicles/bm4k-52h4/about_data)
+    - [Collision Persons](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Person/f55k-p6yu/about_data)
 2. Loads the raw data into a local Postgres database 
-3. Transforms it into clean analytical tables
-4. Directly query collision_summary from a Jupyter notebook
+3. Complete Transforms listed in the transforms deirectory
+4. Directly query transforms from a Jupyter notebook and display the data in a meaningful way. 
 
+We have provided starter code. Feel free to use it. Otherwise please leave detailed instructions on how to run your project in a README during submission
+
+# Deliverables
+
+- Your completed code repo
+- A notebook or data visualizations. You 
+- An updated Readme that includes instructions on how to run the pipeline (if needed) and answer the following questions
+    - Roughly how long did this project take you
+    - How you felt about this project, and what issues did you face, if any.  
+
+Speed is not what we are evaluating; we are evaluating the process as a whole and the effort it takes to complete it.
 
 
 ## What we are looking for
 
-- Does it work? _*Note that you can "mock" an aspect of your solution rather than fully implement it, for example if a feature you want to demonstrate requires additional data. Just be clear in your submission notes what was mocked.*_
+- Does it work? 
 - Is the code clean and accessible to others?
 - Does the code handle edge case conditions?
 
@@ -77,7 +91,7 @@ python -m ipykernel install --user --name=sl-data-eng-take-home --display-name "
 # Set up the initial state of your DB.
 # You can change the name of the db from nyc_collisions to anything you'd like. Just be sure to update the postgres url in the .env 
 
-createdb nyc_collisions
+createdb <nyc_collisions>
 ```
 
 
@@ -88,5 +102,5 @@ createdb nyc_collisions
 python main.py
 
 #working with the notebook
-jupyter notebook analyze_collisions.ipynb
+jupyter notebook <path_to_notebook>
 ```
