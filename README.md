@@ -67,7 +67,10 @@ This project requires python. Everyone has their preferred python setup. If you 
 
 ```bash
 cd /where/you/like/source/code
-# See: https://docs.python.org/3/library/venv.html
+# Check to make sure the version of python is correct.
+# The starter code is utilizing Python 3.11 to match the environment we are currently on
+python -V
+
 python -m venv <directory-name>
 cd <directory-name>
 git clone <github-url>
@@ -76,7 +79,6 @@ cd <directory-name>
 Activate your virtualenv so that pip packages are installed
 # locally for this project instead of globally.
 source ../bin/activate
-export PYTHONPATH=.
 
 pip3 install -r requirements.txt
 
@@ -89,7 +91,8 @@ python -m ipykernel install --user --name=sl-data-eng-take-home --display-name "
 
 ```bash
 # Set up the initial state of your DB.
-# You can change the name of the db from nyc_collisions to anything you'd like. Just be sure to update the postgres url in the .env 
+# You can change the name of the db from nyc_collisions to anything you'd like. 
+# Just be sure to update the postgres url in the .env 
 
 createdb <nyc_collisions>
 ```

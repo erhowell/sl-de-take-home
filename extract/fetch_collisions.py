@@ -5,15 +5,15 @@ import os
 # API endpoints for NYC Motor Vehicle Collisions
 CRASH_API_URL = (
     "https://data.cityofnewyork.us/resource/h9gi-nx95.json"
-    "?$limit=50000&$where=crash_date>'2024-10-01T00:00:00'"
+    "?$limit=50000&$where=crash_date>'2024-11-01T00:00:00'"
 )
 CRASH_VEHICLE_API_URL = (
     "https://data.cityofnewyork.us/resource/bm4k-52h4.json"
-    "?$limit=50000&$where=crash_date>'2024-10-01T00:00:00'"
+    "?$limit=50000&$where=crash_date>'2024-11-01T00:00:00'"
 )
 CRASH_PERSONS_API_URL = (
     "https://data.cityofnewyork.us/resource/f55k-p6yu.json"
-    "?$limit=50000&$where=crash_date>'2024-10-01T00:00:00'"
+    "?$limit=50000&$where=crash_date>'2024-11-01T00:00:00'"
 )
 
 def fetch_data(url, name):
