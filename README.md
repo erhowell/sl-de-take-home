@@ -13,7 +13,7 @@
 
 For this exercise you will be expected to:
 
-1. Extracts recent collision data from NYC Open Data API
+1. Extracts collision data from NYC Open Data API for 2024
     - [Collision Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
     - [Collision Vehicles](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Vehicles/bm4k-52h4/about_data)
     - [Collision Persons](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Person/f55k-p6yu/about_data)
