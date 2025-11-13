@@ -19,11 +19,14 @@ For this exercise you will be expected to:
     - [Collision Persons](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Person/f55k-p6yu/about_data)
 2. Loads the raw data into a local Postgres database 
 3. Complete Transforms listed in the transforms deirectory
-4. Directly query transforms from a Jupyter notebook and display the data in a meaningful way. 
+4. Directly query transforms from a Jupyter notebook and display the data in a meaningful way. You can use the notebook provided as a blueprint, or you can do your own thing.
 
 We have provided starter code. Feel free to use it. Otherwise please leave detailed instructions on how to run your project in a README during submission
 
-# Deliverables
+
+## What we are looking for
+
+**Deliverables**
 
 - Your completed code repo
 - A notebook or data visualizations. You 
@@ -34,9 +37,7 @@ We have provided starter code. Feel free to use it. Otherwise please leave detai
 Speed is not what we are evaluating; we are evaluating the process as a whole and the effort it takes to complete it.
 
 
-## What we are looking for
-
-- Does it work? 
+- Does it work? If there was something you couldn't complete for any reason, feel free to mock it up or write a note saying what you would have like to have done.
 - Is the code clean and accessible to others?
 - Does the code handle edge case conditions?
 
